@@ -9,24 +9,81 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-400 text-cyan-50">
+      <p>Parent Element</p>
+      <div class="absolute bg-purple-600 bottom-0 right-0">
+        Absolute Child Element
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-300 mb-0">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-300 mb-0">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-300 mb-0">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-300 mb-0">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Span top edge -->
 
+    <div class="relative h-32 w-32 bg-yellow-300 mt-1 mb-0">
+      <div class="absolute inset-x-2 top-0 h-16 bg-yellow-200"></div>
+    </div>
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-300 mt-1 mb-0">
+      <div class="absolute inset-y-2 top-0 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-300 mt-1 mb-0">
+      <div
+        class="absolute inset-y-0 bottom-0 top-0 right-0 w-16 bg-yellow-100"
+      ></div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-300 mt-1 mb-0">
+      <div class="absolute inset-x-2 bottom-0 h-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas et
+      architecto ex magni necessitatibus voluptatem suscipit veniam, numquam
+      ea,<span class="inline font-bold"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        illum!</span
+      >
+      quibusdam quod deserunt perspiciatis molestiae quis quo minima quos
+      debitis unde soluta dolor?
+      <span class="inline-block font-bold"
+        >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+        consectetur eaque omnis voluptatem nihil illum tempore fugit repellat
+        perspiciatis et ea, soluta corrupti velit at unde nobis, facere eos.
+        Nostrum.</span
+      >Assumenda rem dolorum distinctio tempore explicabo magnam fugiat
+      voluptas,
+      <span class="hidden font-bold"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dicta
+        voluptate ex, nulla quo inventore iure enim exercitationem obcaecati
+        iste, voluptates doloribus eum, veniam ratione accusantium officia quam
+        maxime? Sequi omnis possimus ullam. Amet totam, dolore architecto dicta
+        voluptas distinctio.</span
+      >
+      cupiditate, fuga fugit odit inventore. Dolorum ab at accusamus?
+    </div>
 
     <!-- Z-Index -->
 
